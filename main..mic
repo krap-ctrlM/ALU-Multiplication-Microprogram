@@ -1,0 +1,18 @@
+y0, y2
+y1, y3
+y22
+y28, y30
+y8, y16
+y24
+y25
+START: y6, y8, y19, y25
+y26, y3; x3, 0, L1
+y6, y8, y17
+y24; 1, 0, INC
+L1: y4, y6, y8; x1, 1, L2
+y29
+L2: y4, y6, y8, y17, y24; 1, 0, INC
+INC: y28, y27, y3
+y23; x4, 1, START
+y6, y8, y19, y25
+y21
